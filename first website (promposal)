@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promposal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cedarville Cursive', cursive;
+            background-color: #ff0303d8; /* Red background */
+            color: #fa0707; /* Red text color */
+            padding: 40px;
+            margin: 0;
+            background-image: url('flowers-background.jpg'); /* Add flowers background image */
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(0, 0, 0); /* Solid black background */
+            border-radius: 10px;
+        }
+
+        .textbox {
+            border: 10px solid #ff0000;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        img {
+            height: 300px;
+            width: 250px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I Know You're A Flyer 🎀, So Would You Like To Get Fly And Go To Prom With Me?</h1>
+        <p>I Would Love The Pleasure Of Pulling Up With The Prettiest and Flyest Young Woman On The Planet ❣ </p>
+        <div class="textbox">
+            <h2>When and Where</h2>
+            <p>Date: [May 11th, 2024]</p>
+            <p>Location: [Martin's Crosswinds, Greenbelt, MD]</p>
+            <img src="images/IMG_0953.jpeg" alt="">
+            <form action="#">
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="response" value="yes">
+        
+                <label for="no">No</label>
+                <input type="radio" id="no" name="response" value="no">
+        
+                <br><br>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
